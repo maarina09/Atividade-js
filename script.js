@@ -49,7 +49,9 @@ document.getElementById("btn4").addEventListener("click", function () {
 // para amarelo
 //
 // Dica: use .style.backgroundColor = "yellow"
-
+document.getElementById("btn5").addEventListener("click", function () {
+    document.getElementById("caixa5").style.backgroundColor = "yellow"
+})
 
 
 // ---------- Exercicio 6 ----------
@@ -57,6 +59,7 @@ document.getElementById("btn4").addEventListener("click", function () {
 //
 // Dica: leia o valor atual com .textContent, converta para
 // numero com Number() e some 1
+
 
 
 
