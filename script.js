@@ -59,7 +59,11 @@ document.getElementById("btn5").addEventListener("click", function () {
 //
 // Dica: leia o valor atual com .textContent, converta para
 // numero com Number() e some 1
-
+document.getElementById("btn6").addEventListener("click", function () {
+    const contador = document.getElementById("contador6");
+    const ValorAtual = Number(contador.textContent)
+    contador.textContent = ValorAtual +1
+})
 
 
 
